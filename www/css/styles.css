@@ -1,0 +1,246 @@
+@charset "utf-8";
+/*
+@font-face {
+	font-family: 'HelveticaNeueW23-Bd';
+	src: url('../font/HelveticaNeueW23-Bd.woff') format('woff'), url('../font/HelveticaNeueW23-Bd.ttf') format('truetype'), url('../font/HelveticaNeueW23-Bd.svg') format('svg');
+	../font-weight: bold;
+	../font-style: normal;
+}
+@font-face {
+	font-family: 'HelveticaNeueW23-Reg';
+	src:  url('../font/HelveticaNeueW23-Reg.woff') format('woff'), url('../font/HelveticaNeueW23-Reg.ttf') format('truetype'), url('../font/HelveticaNeueW23-Reg.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+*/
+@font-face{
+   font-family:'HacenTunisia';
+   src:url('../fonts/HacenTunisiaBold.eot');
+   src:url('../fonts/HacenTunisiaBold.eot?#iefix') format('embedded-opentype'),
+   url('../fonts/HacenTunisiaBold.woff') format('woff'),
+   url('../fonts/HacenTunisiaBold.ttf') format('truetype'),
+   url('../fonts/HacenTunisiaBold.svg') format('svg');
+   font-weight:bold;
+   font-style:normal
+}
+
+
+
+@charset "utf-8";
+body { direction:rtl }
+.ui-collapsible-heading a{text-align:right}
+.ui-checkbox .ui-btn,.ui-radio .ui-btn{text-align:right}
+.ui-li,.ui-li.ui-field-contain{text-align:right}
+.ui-block-a,.ui-block-b,.ui-block-c,.ui-block-d,.ui-block-e{float:right}
+.ui-grid-solo .ui-block-a {float:right}
+.ui-navbar-collapsed ul {float:right}
+.ui-navbar-collapsed .ui-navbar-toggle{float:right}
+.ui-controlgroup-horizontal .ui-checkbox,.ui-controlgroup-horizontal .ui-radio {float:right}
+.ui-li-thumb,.ui-listview .ui-li-icon,.ui-li-content {float:right}
+.ui-li-thumb, .ui-listview .ui-li-icon {right: 1px; left:auto; max-height: 80px; max-width: 80px; position: absolute;  top: 0;}
+.ui-li-aside {float:left;text-align:left}
+.ui-btn-icon-left .ui-icon { right: 10px;left:auto}
+.ui-btn-icon-right .ui-icon { left: 10px;right:auto;}
+.ui-li-has-count .ui-btn-text{padding-left:15px;padding-right:auto}
+.ui-collapsible-heading .ui-btn-icon-top .ui-btn-inner,.ui-collapsible-heading .ui-btn-icon-bottom .ui-btn-inner{padding-left:40px;text-align:center;padding-right:auto}
+.ui-collapsible-heading .ui-btn-icon-right .ui-btn-inner{padding-left:40px;padding-right:12px}
+.ui-checkbox .ui-btn-icon-left .ui-btn-inner,.ui-radio .ui-btn-icon-left .ui-btn-inner{padding-right:45px;padding-left:auto}
+.ui-checkbox .ui-mini.ui-btn-icon-left .ui-btn-inner,.ui-radio .ui-mini.ui-btn-icon-left .ui-btn-inner{padding-right:36px;padding-left:auto}
+.ui-li-has-thumb .ui-btn-inner a.ui-link-inherit,.ui-li-static.ui-li-has-thumb{min-height:60px;padding-right:100px;padding-left:auto}
+.ui-li-has-icon .ui-btn-inner a.ui-link-inherit,.ui-li-static.ui-li-has-icon{min-height:20px;padding-right:40px;padding-left:auto}
+.ui-li-has-thumb .ui-btn-inner a.ui-link-inherit, .ui-li-static.ui-li-has-thumb {padding-left:0px}
+.ui-header .ui-btn-left,
+.ui-footer .ui-btn-left { right: 5px;left:auto }
+.ui-header .ui-btn-right,
+.ui-footer .ui-btn-right { left: 5px; right:auto}
+.ui-btn-icon-left .ui-btn-inner { padding-right: 40px; padding-left: auto }
+.ui-btn-icon-right .ui-btn-inner { padding-left: 40px; padding-right: auto }
+.ui-header .ui-btn-icon-left .ui-btn-inner,
+.ui-footer .ui-btn-icon-left .ui-btn-inner,
+.ui-mini .ui-btn-icon-left .ui-btn-inner { padding-right: 30px; padding-left:auto }
+.ui-header .ui-btn-icon-right .ui-btn-inner,
+.ui-footer .ui-btn-icon-right .ui-btn-inner,
+.ui-mini .ui-btn-icon-right .ui-btn-inner { padding-left: 30px; padding-right:auto }
+.ui-header .ui-btn-icon-left .ui-icon,
+.ui-footer .ui-btn-icon-left .ui-icon,
+.ui-mini.ui-btn-icon-left .ui-icon,
+.ui-mini .ui-btn-icon-left .ui-icon { right: 5px; left:auto }
+.ui-header .ui-btn-icon-right .ui-icon,
+.ui-footer .ui-btn-icon-right .ui-icon,
+.ui-mini.ui-btn-icon-right .ui-icon,
+.ui-mini .ui-btn-icon-right .ui-icon { left: 5px; right: auto }
+
+
+
+
+
+
+#employeePic {
+	
+	float: left;
+	padding-right: 10px;
+	padding-bottom: 16px;
+	max-width:150px;
+}
+
+#employeeDetails p {
+	
+	margin-top: 0px;
+	margin-bottom: 8px;
+}
+
+#actionList {
+	clear: both;
+}
+
+#DOM li{
+	border-bottom: 1px  solid #303030;
+	padding:8px;
+}
+
+#DOM li:last-child{
+	 border-bottom: none;
+}
+
+
+.myHeader{
+	direction:rtl;
+	text-align:right;
+	width:100%;
+	padding:0xp;
+	margin:0px;
+	background-image: url('');
+	background-color:#ffffff;
+	border-top:0px;
+}
+
+.myLogo{
+	float:right;
+	padding:0xp;
+	margin:0px;
+	padding-right:1px;
+	margin-right:2px;
+	text-align:right;
+
+	width:100px;
+	
+	border:0px;
+
+	right:0px;
+
+
+}
+
+.myMenu{
+	float: left;
+	padding:0xp;
+	margin:0px;
+	padding-top:30px;
+    height: 70px;
+	width:180px;
+	text-align:left;
+	padding-left:10px;
+    left: 0px;
+    direction: ltr;
+	
+}
+
+.myHeaderLink{
+	padding:0xp;
+	margin:0px;
+	background: transparent;
+	border: 0px;
+	text-align: right;
+	float:right;
+	direction:rtl;
+	right:0px;
+}
+
+select .myHeaderSelect{
+
+
+}
+
+.myPageHeading{
+	text-align: center;
+	direction:rtl;
+	font-size: 20pt;
+	font-weight: bold;
+	padding:0px;
+	margin:0px;
+	font-family: 'HacenTunisia';
+}
+
+
+.myFooterH1{
+	padding-left:0px;
+	padding-right:0px;
+	margin-left:0px;
+	margin-right:0px;
+	width:'100%';
+}
+.myFooterLink{
+	color:white;
+	text-decoration:none;
+}
+
+.white{
+	color:white;
+}
+
+
+.ui-input-text {
+  direction: rtl;
+  align:right;
+  
+}
+
+#docsList{
+	direction: rtl;
+}
+
+#docsList li img{
+	width: 160px;
+	height:160px;
+	float: right;
+	right: 0px;
+}
+
+#docsList li h4,#docsList li p{
+	text-align:right;
+	position: relative;
+	padding-right: 25px;
+}
+
+#docsList li span {
+	float: left;
+	text-align:left;
+	left: 0px;
+	top:70px;
+	position: absolute;
+	font-size: 10px;
+}
+
+#docsList li div .docCounter {
+	
+	text-align:left;
+	font-size: 10px;
+}
+
+h1 a {
+	color: #ffffff !important;
+	text-decoration: none;
+}
+
+#actionList li,
+#actionList li a,
+#actionList li a h3,
+#actionList li a p{
+  height: auto !important;
+  text-overflow: clip !important;
+  line-height:auto !important;
+  word-wrap: break-word !important;
+  white-space: break-word !important; 
+  overflow: none !important;
+
+}
